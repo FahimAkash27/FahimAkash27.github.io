@@ -9,8 +9,18 @@
     <title>Series Freaks| Friends Quiz</title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/friend.js"></script>
+
+    <meta property="og:url"           content="https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Series Freaks" />
+    <meta property="og:description"   content="My Score" />
+    <meta property="og:scoreli"       content="scoreli" />
+
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0">
+    </script>
     <header style="background-color: rgb(15, 12, 20)">
       <div class="container" >
         <div id="branding" >
@@ -83,7 +93,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="101"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">2. What does the fake Monica say to Monica when she wants to dance with her?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q2" id="label12" value="0"/>
@@ -117,7 +127,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="102"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow"> 
                 <h3 style="color: rgb(245, 73, 30);">3. Who can understand what Chandler is saying over the phone when he's stuck in an ATM-vestibule?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q3" id="label13" value="0"/>
@@ -158,7 +168,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="103"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">4. What song does Ross play on the bagpipes?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q4" id="label14" value="0"/>
@@ -192,7 +202,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="104"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">5. What do the friends use to make the 'giant poking device'?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q5" id="label15" value="1"/>
@@ -233,7 +243,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="105"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">6. What's the name of the girl, whose leg gets broken by Ross?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q6" id="label16" value="0"/>
@@ -274,7 +284,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="106"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">7. What does Joey have, according to Chandler?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q7" id="label17" value="0"/>
@@ -301,7 +311,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="107"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">8. Why doesn't Phoebe want to go to the dentist?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q8" id="label18" value="1"/>
@@ -335,7 +345,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="108"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">9. What was Monica when she was kissed by Ross?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q9" id="label19" value="0"/>
@@ -362,7 +372,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="109"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">10. What's Joey's favorite cuddly-toy called?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q10" id="label1100" value="1"/>
@@ -403,7 +413,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="110"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">11. How does the news of Ross making out with the girl from the Xerox-place reach Rachel?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q11" id="label1111" value="0"/>
@@ -444,7 +454,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="111"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">12. What name does Phoebe use to sign a form for Monica?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q12" id="label1212" value="1"/>
@@ -485,7 +495,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="112"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">13. What turns Chandler on according to Monica?</h3>
                 <div style="background-color: #130303; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q13" id="label1313" value="0" />
@@ -526,7 +536,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="113"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">14. What's wrong with Monica's new boots?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q14" id="label1414" value="0"/>
@@ -560,7 +570,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="114"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">15. What does Joey like most about Rachel moving out?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q15" id="label1515" value="0"/>
@@ -587,7 +597,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="115"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">16. How does Ross react when he finds out about Joey and Rachel?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q16" id="label1616" value="0"/>
@@ -628,7 +638,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="116"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">17. What's Chandlers reaction to Monica's braids?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q17" id="label1717" value="0"/>
@@ -662,7 +672,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="117"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">18. How does Rachel recognize Phoebe during a massage?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q18" id="label1818" value="0"/>
@@ -696,7 +706,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="118"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">19. What does Rachel have to do when the friends are playing football?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q19" id="label1919" value="1"/>
@@ -737,7 +747,7 @@
                   <p style="text-align: center; font-size: 20px;"><b id="119"></b></p>
                 </div>
               </li>
-              <li>
+              <li id="arrow">
                 <h3 style="color: rgb(245, 73, 30);">20. What are Phoebe's rats called?</h3>
                 <div style="background-color: #180b0b; padding-top: 5px; padding-bottom: 5px;">
                   <input type="radio" name="q20" id="label2020" value="0"/>
@@ -786,6 +796,9 @@
               <li id="buttonli">
                 <div style="text-align: center;">
                   <input id="button" type="button" value="Check" onclick="FriendCheck();" class="testbutton">
+                </div>
+                <div class="fb-share-button" data-href="https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html" data-layout="button" data-size="large">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffahimakash27.github.io%2FquizQuestions%2FFriendsQuiz.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
                 </div>
               </li>
             </ul>
