@@ -34,8 +34,9 @@ function FriendCheck(){
       }
     }
 
-    document.getElementById("scorediv").style.visibility = "visible";
+    document.getElementById("scoreli").style.visibility = "visible";
     document.getElementById("score").innerHTML = count;
+    
 
     document.getElementById("buttonli").style.visibility = "hidden"
 
