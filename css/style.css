@@ -123,6 +123,17 @@ header a:hover{
 
 }
 
+/** hover up **/
+
+#arrow {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#arrow:hover {
+  top: -10px;
+}
+
 /* Showcase */
 #showcase{
   min-height:400px;
