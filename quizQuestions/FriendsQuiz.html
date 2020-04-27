@@ -20,27 +20,9 @@
   </head>
   <body>
     <div id="fb-root"></div>
-    <script>
-    			window.fbAsyncInit = function() {
-			    FB.init({
-			      appId      : '1090399234686496',
-			      xfbml      : true,
-			      version    : 'v3.0'
-			    });
-			  
-			    FB.AppEvents.logPageView();
-			  
-			  };
-
-    
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0&appId=1090399234686496&autoLogAppEvents=1">
+  </script>
 
     <header style="background-color: rgb(15, 12, 20)">
       <div class="container" >
@@ -815,12 +797,22 @@
                 </div>
                 <div class="fb-share-button" 
                 data-href="https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html" 
-                data-layout="button_count">
-              </div>
+                data-layout="button" data-size="large">
+                <a target="_blank" 
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffahimakash27.github.io%2FquizQuestions%2FFriendsQuiz.html&amp;src=sdkpreparse" 
+                class="fb-xfbml-parse-ignore">Share</a>
+                </div>
+
+                <a href="https://www.facebook.com/dialog/share?
+                app_id=1090399234686496
+                &display=popup
+                &href=https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html
+                &redirect_uri=https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html" id="shareButton">Open FB Profile</a>
+              
               </li>
               <li id="buttonli">
                 <div style="text-align: center;">
-                  <input id="button" type="button" value="Check" onclick="FriendCheck();" class="testbutton">
+                  <input id="ogBtn" type="button" value="Check" class="testbutton">
                 </div>
               </li>
             </ul>
