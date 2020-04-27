@@ -42,3 +42,11 @@ function FriendCheck(){
 
 
 }
+
+const data = {
+  title: document.title,
+  text: 'Hello World',
+  url: 'https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html',
+}
+
+const shareVia = window.navigator.share(data);
