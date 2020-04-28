@@ -18,8 +18,8 @@ function goToMessenger(){
 } **/
 
 function goToFacebookEncoding(){
-  window[open(https://facebook.com/sharer.php?u=https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html?q=
-    + https://fahimakash27.github.io/index.html,_blank)];
+  window[open("https://facebook.com/sharer.php?u=https://fahimakash27.github.io/quizQuestions/FriendsQuiz.html?q="
+    + "https://fahimakash27.github.io/index.html",_blank)];
 }
 
 
